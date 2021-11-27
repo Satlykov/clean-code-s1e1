@@ -16,6 +16,26 @@
   width: 100%;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  margin: 0;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: block;
+  height: 60px;
+}
+
+.footer__link {
+  width: 200px;
+  height: 100%;
+}
+
+.footer__link-img {
+  width: 100px;
+}
+
 .header .header__more-inf-link {
   font-family: fantasy, cursive;
 }
@@ -32,6 +52,10 @@
   display: block;
   width: 500px;
   margin: 0 auto 0;
+}
+
+.add-input-container {
+  margin-top: 20px;
 }
 
 .add-input-container__input {
